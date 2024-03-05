@@ -12,8 +12,11 @@ def add_numbers(a,b):
     Raises:
         TypeError: If either a or b is not an int or float.
     """
+    # Check if both inputs are integers or floats
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        # Raise a TypeError if either input is not an integer or float
         raise TypeError("Both inputs must be integers or floats.")
     return a+b
+# Return the sum of the two numbers
 result=add_numbers('5',5)
 print(result)
