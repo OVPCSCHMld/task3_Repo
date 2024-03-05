@@ -20,3 +20,4 @@ def add_numbers(a,b):
 # Return the sum of the two numbers
 result=add_numbers('5',5)
 print(result)
+print('I learnt how to use git!')
